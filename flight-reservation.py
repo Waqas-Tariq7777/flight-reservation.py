@@ -267,4 +267,9 @@ while True:
   print("Exit")
   break
  else:
-   print("--Please enter a valid choice--")
+   print("--Please enter a valid choice--") 
+  def calculate_total(price, quantity):
+    discount = 0.1  # 🔴 declared but never used
+    total = price * quantity
+    return total
+
